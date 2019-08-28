@@ -6,7 +6,7 @@ node {
     }
     stage ('Build image') {
         /* This builds the actual image; synonymous to  * docker build on the command line */
-        app = docker.build("senthil123/mytom")
+        app = docker.build("51744860/mytom")
     }
     stage('Test image') {
         /* Ideally, we would run a test framework against our image. * For this example, we're using a Volkswagen-type approach ;-) */
